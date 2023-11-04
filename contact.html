@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Samar Karam</title>
+  </head>
+  <body>
+    <!-- site header -->
+    <header class="header">
+      <!-- media logo -->
+      <div class="header__wrapper container">
+        <a class="header__logo" href="./index.html">
+          <img
+            class="header__img"
+            src="./images/logo.svg"
+            alt="site logo"
+            width="300"
+            height="90"
+          />
+        </a>
+        <nav class="header__nav nav">
+          <ul class="nav__list" role="list">
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#">cultural hub</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./index.html">
+                <img
+                  class="nav__img"
+                  src="./images/logo.svg"
+                  alt="site logo"
+                  width="300"
+                  height="90"
+                />
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="./resources.html">resources</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link active" href="./contact.html">contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__toggler">
+          <i class="header__icon bx bx-menu-alt-right"></i>
+        </button>
+        <ul class="nav__list-mob" role="list">
+          <li class="nav__item-mob">
+            <a class="nav__link-mob" href="./index.html">home</a>
+          </li>
+          <li class="nav__item-mob">
+            <a class="nav__link-mob" href="#">cultural hub</a>
+          </li>
+          <li class="nav__item-mob">
+            <a class="nav__link-mob" href="./resources.html">resources</a>
+          </li>
+          <li class="nav__item-mob">
+            <a class="nav__link-mob active" href="./contact.html">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- site main -->
+    <main class="main">
+      <section class="contact">
+        <h2 class="contact__title site-title">contact us</h2>
+        <div class="contact__container container">
+          <div class="contact__box contact-box">
+            <form class="contact-box__form">
+              <input
+                class="contact-box__input"
+                type="text"
+                placeholder="full name"
+                required
+              />
+              <input
+                class="contact-box__input"
+                type="email"
+                placeholder="your email"
+                required
+              />
+              <textarea
+                class="contact-box__input contact-box__textarea"
+                placeholder="your message"
+                required
+              ></textarea>
+              <button class="contact-box__btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- site footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <ul class="footer__list" role="list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">home</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">about us</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="@connect@samarkaram.ae">mail</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="+971509066491">call us</a>
+          </li>
+        </ul>
+        <ul class="footer__social social" role="list">
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <i class="social__img bx bxl-instagram-alt"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <i class="social__img bx bxl-facebook"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <i class="social__img bx bxl-linkedin-square"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <i class="social__img bx bxl-youtube"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <i class="social__img bx bxl-twitter"></i>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link" href="#">
+              <i class="social__img bx bxl-tiktok"></i>
+            </a>
+          </li>
+        </ul>
+        <span class="footer_copy">Copyright © 2023 Samar Karam</span>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
