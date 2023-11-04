@@ -9,6 +9,11 @@
   --secondary-font: "Quicksand", sans-serif;
 }
 
+*:focus {
+  outline: 2px dashed var(--secondary);
+  outline-offset: 3px;
+}
+
 html {
   box-sizing: border-box;
   height: 100%;

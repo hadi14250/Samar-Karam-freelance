@@ -116,6 +116,10 @@ body {
   text-decoration: none;
 }
 
+.hero-wrapper__link:hover {
+  opacity: 0.7;
+}
+
 .link-about {
   margin-right: 15px;
   background-color: var(--secondary);
