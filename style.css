@@ -499,6 +499,10 @@ body {
   width: calc(50% - 55px) !important;
 }
 
+.hero-wrapper__image {
+  display: none;
+}
+
 /********** Media Breakpoints **********/
 
 @media only screen and (max-width: 1080px) {
@@ -525,7 +529,7 @@ body {
 @media only screen and (max-width: 980px) {
   .hero {
     height: auto;
-    padding: 50px 0;
+    padding: 50px 0 0;
     background-image: none;
   }
 
@@ -536,6 +540,10 @@ body {
     justify-content: center;
     text-align: center;
     width: 100%;
+  }
+
+  .hero-wrapper__image {
+    display: block;
   }
 
   .hero__title {
@@ -788,6 +796,13 @@ body {
   .hero-wrapper__img {
     width: 30px;
     height: 30px;
+  }
+
+  .hero-wrapper__image {
+    margin-top: auto;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
   }
 
   .hero-wrapper__desc {
