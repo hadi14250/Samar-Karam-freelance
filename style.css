@@ -507,6 +507,10 @@ body {
   display: none;
 }
 
+.explore-container__img1 {
+    filter: drop-shadow(-1px 12px 4px rgba(0, 0, 0, 0.5));
+}
+
 /********** Media Breakpoints **********/
 
 @media only screen and (max-width: 1080px) {
