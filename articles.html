@@ -55,10 +55,10 @@
               </a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="./resources.html">resources</a>
+              <a class="nav__link active" href="./resources.html">resources</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link active" href="./contact.html">contact me</a>
+              <a class="nav__link" href="./contact.html">contact me</a>
             </li>
           </ul>
         </nav>
@@ -73,53 +73,71 @@
             <a class="nav__link-mob" href="#">cultural hub</a>
           </li>
           <li class="nav__item-mob">
-            <a class="nav__link-mob" href="./resources.html">resources</a>
+            <a class="nav__link-mob active" href="./resources.html"
+              >resources</a
+            >
           </li>
           <li class="nav__item-mob">
-            <a class="nav__link-mob active" href="./contact.html">contact me</a>
+            <a class="nav__link-mob" href="./contact.html">contact me</a>
           </li>
         </ul>
       </div>
     </header>
     <!-- site main -->
     <main class="main">
-      <section class="contact">
-        <h2 class="contact__title site-title">contact me</h2>
-        <div class="contact__container container">
-          <div class="contact__box contact-box">
-            <form
-              id="contactForm"
-              class="contact-box__form"
-              action="https://formspree.io/your-email"
-              method="POST"
-            >
-              <input
-                id="fullName"
-                class="contact-box__input"
-                type="text"
-                name="Full Name"
-                placeholder="Full Name"
-                required
+      <!-- tab -->
+      <section class="tab container">
+        <div class="tab-container">
+          <a class="tab__link tab-link" href="./books.html">books</a>
+          <a class="tab__link tab-link" href="./videos.html">videos</a>
+          <a class="tab__link tab-link active" href="./articles.html"
+            >articles</a
+          >
+        </div>
+      </section>
+      <!-- recommanded books -->
+      <section class="books">
+        <div class="books__container container">
+          <h2 class="books__title site-title">Articles:</h2>
+          <!-- books box -->
+          <div class="books__box book-box">
+            <div class="book-box__left">
+              <!-- src="./images/books/AWomanIsNoMan.jpg" -->
+              <img
+                class="book-box__image"
+                src="./images/books/AWomanIsNoMan.svg"
+                alt="book image"
+                width="300"
+                height="400"
               />
-              <input
-                id="email"
-                class="contact-box__input"
-                type="email"
-                name="_replyto"
-                placeholder="Your Email"
-                required
+            </div>
+            <div class="book-box__right">
+              <!-- <span class="book-box__sub">Featured Book of the week</span> -->
+              <h4 class="book-box__name">
+                A Woman Is No Man: A Read with Jenna Pick
+              </h4>
+              <img
+                width="120"
+                height="45"
+                class="book-box__img"
+                src="./images/books/stars/4.5_stars.svg"
+                alt="star img"
               />
-              <textarea
-                id="message"
-                class="contact-box__input contact-box__textarea"
-                name="Message"
-                placeholder="Your Message"
-                required
-              ></textarea>
-              <button id="submitButton" class="contact-box__btn" type="submit">
-                Submit
-              </button>
-            </form>
+              <p class="book-box__text">
+                The New York Times bestseller and Read with Jenna TODAY SHOW
+                Book Club pick telling the story of three generations of
+                Palestinian-American women struggling to express their
+                individual desires within the confines of their Arab culture in
+                the wake of shocking intimate violence in their community.
+              </p>
+              <a
+                class="book__box-link"
+                target="_blank"
+                href="https://www.amazon.com/Woman-No-Man-Novel/dp/0062699768"
+                >Link
+                <i class="book-box__icon bx bx-right-arrow-alt"></i>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -135,10 +153,12 @@
             <a class="footer__link" href="./cultural_hub.html">cultural hub</a>
           </li>
           <li class="footer__item">
-            <a class="footer__link" href="@connect@samarkaram.ae">resources</a>
+            <a class="footer__link active" href="@connect@samarkaram.ae"
+              >resources</a
+            >
           </li>
           <li class="footer__item">
-            <a class="footer__link active" href="+971509066491">contact me</a>
+            <a class="footer__link" href="+971509066491">contact me</a>
           </li>
         </ul>
         <ul class="footer__social social" role="list">

@@ -10,3 +10,10 @@ if (elSiteHeaderToggler) {
     elSiteHeader.classList.toggle(modifiers.elSiteHeaderOpen);
   });
 }
+
+/************ Contact page form **************/
+
+const elForm = document.getElementById("contactForm");
+elForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+});
