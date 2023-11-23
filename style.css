@@ -842,7 +842,7 @@ form p {
   }
 
   .nav__link-mob.active {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.678);
   }
 
   /* footer medi */
