@@ -48,22 +48,32 @@ document.addEventListener("DOMContentLoaded", function () {
   
 
 
-let isDescriptionVisible = false;
+  let isDescriptionVisible = false;
 
-function toggleDescription() {
-  const bookBoxContent = document.getElementById('bookBoxContent');
-  const readMoreBtn = document.querySelector('.read-more-btn');
-
-  isDescriptionVisible = !isDescriptionVisible;
-
-  if (isDescriptionVisible) {
-    bookBoxContent.style.maxHeight = bookBoxContent.scrollHeight + 'px';
-    readMoreBtn.textContent = 'Read Less';
-  } else {
-    bookBoxContent.style.maxHeight = '100px'; // Set your desired collapsed height
-    readMoreBtn.textContent = 'Read More';
+  function toggleDescription() {
+    const bookBoxContent = document.getElementById('bookBoxContent');
+    const readMoreBtn = document.querySelector('.read-more-btn');
+    const ellipsis = document.querySelector('.ellipsis');
+  
+    isDescriptionVisible = !isDescriptionVisible;
+  
+    if (isDescriptionVisible) {
+      bookBoxContent.style.maxHeight = bookBoxContent.scrollHeight + 'px';
+      readMoreBtn.textContent = 'Read Less ↑';
+      ellipsis.style.display = 'none';
+    } else {
+      bookBoxContent.style.maxHeight = '100px'; // Set your desired collapsed height
+      readMoreBtn.textContent = 'Read More ↓';
+      ellipsis.style.display = 'inline'; // Display the ellipsis
+    }
   }
-}
+  
+  
+  
+  
+  
+  
+  
     
   
   
