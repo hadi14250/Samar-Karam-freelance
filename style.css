@@ -555,6 +555,26 @@ body {
   background-color: var(--secondary);
   color: var(--white);
 }
+
+
+/******** Animations *********/
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the specified class */
+.books__title {
+  animation: slideIn 1.5s ease-out; /* Adjust the duration and timing function as needed */
+}
+
 /********** Media Breakpoints **********/
 
 /* for Imac style */

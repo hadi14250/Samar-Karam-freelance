@@ -1,11 +1,4 @@
 {
-    "rewrites": [
-      { "source": "/home", "destination": "/index.html" },
-      { "source": "/articles", "destination": "/articles.html" },
-      { "source": "/contact", "destination": "/contact.html" },
-      { "source": "/books", "destination": "/books.html" },
-      { "source": "/cultural-hub", "destination": "/cultural_hub.html" },
-      { "source": "/videos", "destination": "/videos.html" }
-    ]
-  }
+  "cleanUrls": true
+}
   
