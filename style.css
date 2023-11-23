@@ -428,6 +428,10 @@ body {
 
 /********** contact page ***********/
 
+form p {
+  color: white;
+}
+
 .contact {
   padding: 55px 0;
 }
@@ -437,8 +441,8 @@ body {
   width: 600px;
   display: flex;
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 20px;
+  background-color: #141717;
+  border-radius: 20px 0;
 }
 
 .contact-box__img {
@@ -463,6 +467,7 @@ body {
 }
 
 .contact-box__btn {
+  margin-top: 20px;
   border: none;
   background-color: var(--secondary);
   padding: 8px 12px;
@@ -478,7 +483,6 @@ body {
 .contact-box__input::placeholder {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
-  text-transform: capitalize;
 }
 
 .contact-box__textarea {
