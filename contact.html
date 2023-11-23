@@ -87,39 +87,43 @@
         <h2 class="contact__title site-title">contact me</h2>
         <div class="contact__container container">
           <div class="contact__box contact-box">
-            <form
-              id="contactForm"
-              class="contact-box__form"
-              action="https://formspree.io/your-email"
-              method="POST"
+
+          <form
+            action="https://formspree.io/f/xoqooajr"
+            method="POST"
+            class="contact-box__form"
+          >
+          <label>
+            Full Name:
+            <input 
+            type="text" name="name"
+            class="contact-box__input"
+            placeholder="Your Email"
+            required
             >
-              <input
-                id="fullName"
-                class="contact-box__input"
-                type="text"
-                name="Full Name"
-                placeholder="Full Name"
-                required
-              />
-              <input
-                id="email"
-                class="contact-box__input"
-                type="email"
-                name="_replyto"
-                placeholder="Your Email"
-                required
-              />
+          </label>
+            <label>
+              Your email:
+              <input 
+              type="email" name="email"
+              class="contact-box__input"
+              placeholder="Your Email"
+              required
+              >
+            </label>
               <textarea
-                id="message"
-                class="contact-box__input contact-box__textarea"
-                name="Message"
-                placeholder="Your Message"
-                required
+              name="message"
+              class="contact-box__input contact-box__textarea"
+              placeholder="Your Message"
+              required
               ></textarea>
-              <button id="submitButton" class="contact-box__btn" type="submit">
-                Submit
-              </button>
-            </form>
+            <!-- your other form fields go here -->
+            <button
+            type="submit"
+            class="contact-box__btn"
+            >Send</button>
+          </form>
+         
           </div>
         </div>
       </section>
