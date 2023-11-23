@@ -57,10 +57,11 @@ body {
 }
 
 .nav__img:hover {
-  transform: scale(1.1); /* Adjust the scale factor and rotation angle as needed */
+  transform: scale(
+    1.1
+  ); /* Adjust the scale factor and rotation angle as needed */
   filter: brightness(1.1);
 }
-
 
 .header__logo,
 .header__toggler {
@@ -225,7 +226,6 @@ body {
 .client-box__content {
   width: 75%;
 }
-
 
 .client-box__img {
   width: 120px;
@@ -392,17 +392,9 @@ body {
   margin-bottom: 35px;
 }
 
-
 .book-box:last-child {
   margin-bottom: 0;
 }
-
-
-
-
-
-
-
 
 .book-box__content {
   max-height: 100px; /* Set your desired collapsed height */
@@ -418,8 +410,6 @@ body {
   margin-top: 10px;
 }
 
-
-
 #arrow-icon {
   margin-right: 5px;
 }
@@ -432,13 +422,20 @@ body {
   margin-right: 10px;
 }
 
+.book-box__text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
-
-
-
-
-
-
+.book-box__content.show-all .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
 
 .book-box__sub {
   display: block;
@@ -509,8 +506,6 @@ form p {
   flex-direction: column;
 }
 
-
-
 .contact-box__input {
   padding: 8px 15px;
   font-size: 14px;
@@ -569,7 +564,6 @@ form p {
   display: none;
 }
 
-
 .explore-container__img1,
 .explore-container__img2 {
   transition: all linear 0.1s;
@@ -582,8 +576,6 @@ form p {
   transform: scale(0.97); /* Increase the scale factor as needed */
 }
 
-
-
 .book-box__image {
   transform: translateX(-100%);
   opacity: 0;
@@ -595,7 +587,6 @@ form p {
   opacity: 1;
 }
 
-
 .footer__link.active {
   color: var(--secondary);
 }
@@ -605,7 +596,7 @@ form p {
   padding: 8px;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   border-radius: 14px;
   background-color: rgba(0, 0, 0, 0.05);
   max-width: 550px; /* Set a maximum width for the tab container */
@@ -633,7 +624,6 @@ form p {
   background-color: var(--secondary);
   color: var(--white);
 }
-
 
 /******** Animations *********/
 
@@ -813,12 +803,11 @@ form p {
     overflow-x: auto; /* Add horizontal scroll for small screens if needed */
     flex-wrap: wrap;
   }
-  
+
   .tab__link {
     margin: 4px; /* Adjust the spacing between links for smaller screens */
     font-size: 12px; /* Adjust the font size for smaller screens */
   }
-
 }
 
 @media only screen and (max-width: 780px) {
