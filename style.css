@@ -138,7 +138,7 @@ body {
   margin-right: 15px;
   background-color: var(--secondary);
   color: var(--white);
-  border: 1px solid var(--secondary);
+  border: 1px solid white;
 }
 
 .link-contact {
