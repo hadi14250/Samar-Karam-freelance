@@ -226,6 +226,7 @@ body {
   width: 75%;
 }
 
+
 .client-box__img {
   width: 120px;
   height: 120px;
@@ -391,9 +392,48 @@ body {
   margin-bottom: 35px;
 }
 
+
 .book-box:last-child {
   margin-bottom: 0;
 }
+
+
+
+
+
+
+
+
+.book-box__content {
+  max-height: 100px; /* Set your desired collapsed height */
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.read-more-btn {
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#arrow-icon {
+  margin-right: 5px;
+}
+
+.read-more-btn:hover {
+  color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
 
 .book-box__sub {
   display: block;
@@ -463,6 +503,8 @@ form p {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .contact-box__input {
   padding: 8px 15px;
@@ -534,6 +576,7 @@ form p {
   filter: drop-shadow(8px 8px 3px rgba(0, 0, 0, 0.3)) grayscale(100%);
   transform: scale(0.97); /* Increase the scale factor as needed */
 }
+
 
 
 .book-box__image {

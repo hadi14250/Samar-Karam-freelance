@@ -45,9 +45,29 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 
+  
 
 
+let isDescriptionVisible = false;
 
+function toggleDescription() {
+  const bookBoxContent = document.getElementById('bookBoxContent');
+  const readMoreBtn = document.querySelector('.read-more-btn');
+
+  isDescriptionVisible = !isDescriptionVisible;
+
+  if (isDescriptionVisible) {
+    bookBoxContent.style.maxHeight = bookBoxContent.scrollHeight + 'px';
+    readMoreBtn.textContent = 'Read Less';
+  } else {
+    bookBoxContent.style.maxHeight = '100px'; // Set your desired collapsed height
+    readMoreBtn.textContent = 'Read More';
+  }
+}
+    
+  
+  
+  
 
 
 
