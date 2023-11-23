@@ -43,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
 let isDescriptionVisible = false;
 
 function toggleDescription() {
@@ -54,9 +55,9 @@ function toggleDescription() {
 
   // Change button text based on the visibility of the content
   if (content.classList.contains("show-all")) {
-    buttonText.textContent = "Read Less";
+    buttonText.textContent = "Read Less ↑";
   } else {
-    buttonText.textContent = "Read More";
+    buttonText.textContent = "Read More ↓";
   }
 }
 

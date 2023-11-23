@@ -397,9 +397,8 @@ body {
 }
 
 .book-box__content {
-  max-height: 100px; /* Set your desired collapsed height */
+  /* max-height: 100px; Set your desired collapsed height */
   overflow: hidden;
-  transition: max-height 0.3s ease-in-out;
 }
 
 .read-more-btn {
