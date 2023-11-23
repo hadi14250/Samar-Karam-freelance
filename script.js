@@ -27,4 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
       observer.observe(bookBox);
     });
   });
-  
+
+
+
+
+
+
+
+
+
+//   ----------------- Typing Animation ----------
