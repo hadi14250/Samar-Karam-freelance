@@ -528,14 +528,18 @@ form p {
   transform: scale(0.97); /* Increase the scale factor as needed */
 }
 
+
 .book-box__image {
   transform: translateX(-100%);
-  transition: transform 0.5s ease;
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .book-box__image.visible {
   transform: translateX(0);
+  opacity: 1;
 }
+
 
 .footer__link.active {
   color: var(--secondary);

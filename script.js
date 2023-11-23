@@ -19,6 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Observe each book box
     bookBoxes.forEach((bookBox) => {
+      const bookImage = bookBox.querySelector(".book-box__image");
+  
+      // Hide the image initially
+      bookImage.classList.remove("visible");
+  
       observer.observe(bookBox);
     });
   });
