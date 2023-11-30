@@ -119,6 +119,24 @@ body {
   line-height: 24px;
 }
 
+@keyframes typing {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blinking {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color:chartreuse;
+    }
+}
+
 .hero-wrapper__link {
   padding: 8px 15px;
   display: flex;
@@ -421,6 +439,31 @@ body {
   margin-right: 10px;
 }
 
+.read-more-text1 {
+  margin-right: 10px;
+}
+
+.read-more-text2 {
+  margin-right: 10px;
+}
+
+.read-more-text4 {
+  margin-right: 10px;
+}
+
+.read-more-text5 {
+  margin-right: 10px;
+}
+
+.read-more-text6 {
+  margin-right: 10px;
+}
+
+.read-more-text7 {
+  margin-right: 10px;
+}
+
+
 .book-box__text {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -435,6 +478,50 @@ body {
   overflow: unset;
   text-overflow: unset; /* Remove ellipsis when expanded */
 }
+
+.book-box__content.show-all2 .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
+
+
+.book-box__content.show-all4 .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
+
+.book-box__content.show-all5 .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
+
+.book-box__content.show-all6 .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
+
+.book-box__content.show-all7 .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
+
+.book-box__content.show-all1 .book-box__text {
+  display: block;
+  white-space: normal;
+  overflow: unset;
+  text-overflow: unset; /* Remove ellipsis when expanded */
+}
+
 
 .book-box__sub {
   display: block;
