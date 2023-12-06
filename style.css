@@ -464,6 +464,13 @@ body {
 }
 
 
+.book-box__text__books-page {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .book-box__text {
   display: -webkit-box;
   -webkit-box-orient: vertical;
