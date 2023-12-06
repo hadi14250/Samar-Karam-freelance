@@ -129,12 +129,13 @@ body {
 }
 
 @keyframes blinking {
-    0%, 100% {
-      border-color: transparent;
-    }
-    50% {
-      border-color:chartreuse;
-    }
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: chartreuse;
+  }
 }
 
 .hero-wrapper__link {
@@ -472,7 +473,6 @@ body {
   margin-right: 10px;
 }
 
-
 .book-box__text__books-page {
   margin: 0;
   margin-bottom: 20px;
@@ -501,7 +501,6 @@ body {
   overflow: unset;
   text-overflow: unset; /* Remove ellipsis when expanded */
 }
-
 
 .book-box__content.show-all4 .book-box__text {
   display: block;
@@ -537,7 +536,6 @@ body {
   overflow: unset;
   text-overflow: unset; /* Remove ellipsis when expanded */
 }
-
 
 .book-box__sub {
   display: block;
@@ -958,6 +956,7 @@ form p {
     right: 30px;
     background-color: var(--secondary);
     border-radius: 12px;
+    z-index: 10;
   }
 
   .header.header--open .nav__list-mob {
