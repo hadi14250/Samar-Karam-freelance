@@ -683,6 +683,10 @@ form p {
   width: calc(50% - 55px) !important;
 }
 
+.swiper-slide {
+  height:auto !important;
+}
+
 .hero-wrapper__image {
   display: none;
 }
