@@ -397,6 +397,15 @@ body {
 
 /********* recommends books page **********/
 
+.books-writer-name {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
 .books {
   padding: 55px 0;
 }
