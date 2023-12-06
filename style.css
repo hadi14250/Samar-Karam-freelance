@@ -581,6 +581,19 @@ body {
   text-transform: uppercase;
 }
 
+.book__box-link-back-button {
+  padding: 8px 12px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 13px;
+  text-decoration: none;
+  color: var(--main);
+  border: 1px solid var(--main);
+  border-radius: 8px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
 .book-box__icon {
   margin-left: 10px;
 }
